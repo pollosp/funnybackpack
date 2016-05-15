@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'rspec'
+gem 'sinatra'
+gem 'rack-test'
+gem 'haml'
+gem 'sqlite3'
+gem 'dm-core'
+gem 'dm-migrations'
+gem 'dm-validations'
+gem 'dm-timestamps'
+gem 'dm-sqlite-adapter'

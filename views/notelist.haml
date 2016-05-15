@@ -1,0 +1,9 @@
+%html
+  %head
+    %title NoteWall
+  %body
+    %h1 NoteWall
+    %h2 Notes in the system
+    -@notes.each do |item|
+      %strong= "Nombre: #{item.name}"
+      %p= " #{item.message}"

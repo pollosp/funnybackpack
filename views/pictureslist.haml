@@ -1,0 +1,7 @@
+%html
+  %head
+    %title NoteWall pictures
+  %body
+    %h1 NoteWall Pictures
+    -@pictures.each do |item|
+      %img{:src => "/uploads/#{item}"}
