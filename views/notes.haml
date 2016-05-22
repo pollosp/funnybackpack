@@ -1,13 +1,15 @@
-%h1 NoteWall
-
-%form{ :action => "", :method => "post"}
-  %fieldset
-    %ol
-      %li
-        %label{:for => "name"} Name:
-        %input{:type => "text", :name => "name", :class => "text"}
-      %li
-        %label{:for => "message"} Message:
-        %textarea{:name => "message"}
-    %input{:type => "submit", :value => "Send", :class => "button"}
-
+%html
+  %head
+    %title FunnyBackpack NoteWall
+  %body
+    %h1 NoteWall
+    %form{ :action => "", :method => "post"}
+      %fieldset
+        %ol
+          %li
+            %label{:for => "name"} Name:
+            %input{:type => "text", :name => "name", :class => "text"}
+          %li
+            %label{:for => "message"} Message:
+            %textarea{:name => "message"}
+        %input{:type => "submit", :value => "Send", :class => "button"}

@@ -3,3 +3,4 @@ vendor
 .rspec
 notewall.sqlite
 .DS_Store
+notewall.sqlite
