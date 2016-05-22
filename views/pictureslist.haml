@@ -1,7 +1,8 @@
 %html
   %head
     %title NoteWall pictures
+    %link(rel="stylesheet" href="css/styles.css")
   %body
-    %h1 NoteWall Pictures
+    %h1 FunnyBackpack Pictures
     -@pictures.each do |item|
       %img{:src => "/uploads/#{item}"}

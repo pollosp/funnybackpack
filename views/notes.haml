@@ -1,11 +1,13 @@
 %html
   %head
     %title FunnyBackpack NoteWall
+    %link(rel="stylesheet" href="css/styles.css")
   %body
-    %h1 NoteWall
+    %h1 FunnyBackpack
+    %h2 NoteWall
     %form{ :action => "", :method => "post"}
       %fieldset
-        %ol
+        %ul
           %li
             %label{:for => "name"} Name:
             %input{:type => "text", :name => "name", :class => "text"}

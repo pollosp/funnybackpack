@@ -1,9 +1,10 @@
 %html
   %head
+    %link(rel="stylesheet" href="css/styles.css")
     %title FunnyBackpack NoteWall
   %body
     %h1 NoteWall
-    %h2 Notes in the system
+    %h2 Notes in FunnyBackpack
     -@notes.each do |item|
-      %strong= "Nombre: #{item.name}"
-      %p= " #{item.message}"
+      %h3= "#{item.name}"
+      %p= "#{item.message}"
