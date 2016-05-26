@@ -4,3 +4,4 @@ vendor
 notewall.sqlite
 .DS_Store
 notewall.sqlite
+public/uploads
