@@ -6,5 +6,5 @@
     %h1 NoteWall
     %h2 Notes in FunnyBackpack
     -@notes.each do |item|
-      %h3= "#{item.name}"
-      %p= "#{item.message}"
+      %h3= "#{Rack::Utils.escape_html(item.name)}"
+      %p= "#{Rack::Utils.escape_html(item.message)}"

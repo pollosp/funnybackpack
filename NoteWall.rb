@@ -1,6 +1,8 @@
 require 'sinatra'
 require 'haml'
-require_relative './model/NoteWall_model.rb'
+
+require_relative './model/NoteWall_model'
+
 include FileUtils::Verbose
 
 get '/' do
